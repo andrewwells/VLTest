@@ -10,6 +10,10 @@
 		49A7A5B91B6A66A9005FE627 /* VLTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A7A5B81B6A66A9005FE627 /* VLTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49A7A5BF1B6A66A9005FE627 /* VLTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A7A5B31B6A66A9005FE627 /* VLTest.framework */; };
 		49A7A5C61B6A66A9005FE627 /* VLTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A7A5C51B6A66A9005FE627 /* VLTestTests.m */; };
+		49E2F2C61B6A68CA00CD743C /* VLTestClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E2F2C41B6A68CA00CD743C /* VLTestClass.h */; };
+		49E2F2C71B6A68CA00CD743C /* VLTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E2F2C51B6A68CA00CD743C /* VLTestClass.m */; };
+		49FC0CE550703D459B64B4D2 /* libPods-VLTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5893AB16026C05C4A0381E6 /* libPods-VLTest.a */; };
+		C5604C69966D54ABF980FE7A /* libPods-VLTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C98F6DDB31173DA13873FF1 /* libPods-VLTestTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +27,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C98F6DDB31173DA13873FF1 /* libPods-VLTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VLTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21991A92F3E41583CAD8154D /* Pods-VLTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VLTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VLTestTests/Pods-VLTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		31F5B7365C46915A464E28D2 /* Pods-VLTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VLTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VLTestTests/Pods-VLTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		49A7A5B31B6A66A9005FE627 /* VLTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VLTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A7A5B71B6A66A9005FE627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49A7A5B81B6A66A9005FE627 /* VLTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VLTest.h; sourceTree = "<group>"; };
 		49A7A5BE1B6A66A9005FE627 /* VLTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VLTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A7A5C41B6A66A9005FE627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49A7A5C51B6A66A9005FE627 /* VLTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLTestTests.m; sourceTree = "<group>"; };
+		49E2F2C41B6A68CA00CD743C /* VLTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VLTestClass.h; sourceTree = "<group>"; };
+		49E2F2C51B6A68CA00CD743C /* VLTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLTestClass.m; sourceTree = "<group>"; };
+		750B62D9882ACF2F5DFDCEF7 /* Pods-VLTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VLTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-VLTest/Pods-VLTest.release.xcconfig"; sourceTree = "<group>"; };
+		8E12386F0CE66EC0805023E3 /* Pods-VLTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VLTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VLTest/Pods-VLTest.debug.xcconfig"; sourceTree = "<group>"; };
+		C5893AB16026C05C4A0381E6 /* libPods-VLTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VLTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FC0CE550703D459B64B4D2 /* libPods-VLTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +57,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				49A7A5BF1B6A66A9005FE627 /* VLTest.framework in Frameworks */,
+				C5604C69966D54ABF980FE7A /* libPods-VLTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2098785DA7385EBEB1BE757A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E12386F0CE66EC0805023E3 /* Pods-VLTest.debug.xcconfig */,
+				750B62D9882ACF2F5DFDCEF7 /* Pods-VLTest.release.xcconfig */,
+				31F5B7365C46915A464E28D2 /* Pods-VLTestTests.debug.xcconfig */,
+				21991A92F3E41583CAD8154D /* Pods-VLTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		49A7A5A91B6A66A9005FE627 = {
 			isa = PBXGroup;
 			children = (
 				49A7A5B51B6A66A9005FE627 /* VLTest */,
 				49A7A5C21B6A66A9005FE627 /* VLTestTests */,
 				49A7A5B41B6A66A9005FE627 /* Products */,
+				2098785DA7385EBEB1BE757A /* Pods */,
+				E3B478E96AB6BFAB5E9B0105 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +100,8 @@
 			children = (
 				49A7A5B81B6A66A9005FE627 /* VLTest.h */,
 				49A7A5B61B6A66A9005FE627 /* Supporting Files */,
+				49E2F2C41B6A68CA00CD743C /* VLTestClass.h */,
+				49E2F2C51B6A68CA00CD743C /* VLTestClass.m */,
 			);
 			path = VLTest;
 			sourceTree = "<group>";
@@ -102,6 +131,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E3B478E96AB6BFAB5E9B0105 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5893AB16026C05C4A0381E6 /* libPods-VLTest.a */,
+				0C98F6DDB31173DA13873FF1 /* libPods-VLTestTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -110,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49A7A5B91B6A66A9005FE627 /* VLTest.h in Headers */,
+				49E2F2C61B6A68CA00CD743C /* VLTestClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,10 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49A7A5C91B6A66A9005FE627 /* Build configuration list for PBXNativeTarget "VLTest" */;
 			buildPhases = (
+				8D8F761D93038092CE4FE39D /* Check Pods Manifest.lock */,
 				49A7A5AE1B6A66A9005FE627 /* Sources */,
 				49A7A5AF1B6A66A9005FE627 /* Frameworks */,
 				49A7A5B01B6A66A9005FE627 /* Headers */,
 				49A7A5B11B6A66A9005FE627 /* Resources */,
+				C6B6F5F21D138DD0E723780B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49A7A5CC1B6A66A9005FE627 /* Build configuration list for PBXNativeTarget "VLTestTests" */;
 			buildPhases = (
+				9EE691242ECBE197B466C9C7 /* Check Pods Manifest.lock */,
 				49A7A5BA1B6A66A9005FE627 /* Sources */,
 				49A7A5BB1B6A66A9005FE627 /* Frameworks */,
 				49A7A5BC1B6A66A9005FE627 /* Resources */,
+				FEFC010D5EDD847FE258FA5E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,11 +247,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8D8F761D93038092CE4FE39D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EE691242ECBE197B466C9C7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C6B6F5F21D138DD0E723780B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VLTest/Pods-VLTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEFC010D5EDD847FE258FA5E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VLTestTests/Pods-VLTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49A7A5AE1B6A66A9005FE627 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E2F2C71B6A68CA00CD743C /* VLTestClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +428,7 @@
 		};
 		49A7A5CA1B6A66A9005FE627 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E12386F0CE66EC0805023E3 /* Pods-VLTest.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -336,6 +444,7 @@
 		};
 		49A7A5CB1B6A66A9005FE627 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 750B62D9882ACF2F5DFDCEF7 /* Pods-VLTest.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -351,6 +460,7 @@
 		};
 		49A7A5CD1B6A66A9005FE627 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F5B7365C46915A464E28D2 /* Pods-VLTestTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -368,6 +478,7 @@
 		};
 		49A7A5CE1B6A66A9005FE627 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21991A92F3E41583CAD8154D /* Pods-VLTestTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -398,6 +509,7 @@
 				49A7A5CB1B6A66A9005FE627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49A7A5CC1B6A66A9005FE627 /* Build configuration list for PBXNativeTarget "VLTestTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +518,7 @@
 				49A7A5CE1B6A66A9005FE627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
